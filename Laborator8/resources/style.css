@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.crop {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  /* clip-path: circle(50%); */
+}
+
+.crop img {
+  margin: -60px 0 0 -1620px; /* La height, top limita intre 0 si -1748px */
+                            /* Pt width, limit itnre 0 si -1648px */
+}

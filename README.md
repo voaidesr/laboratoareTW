@@ -8,7 +8,7 @@ Descărcați fișierele `draw.html`, `style.css` și `draw.js` din directorul `r
 
 1. Mai întâi vom construi tabla de desenat, ca în imaginea de mai jos.
 
-![tablă](resources/images/table.png)  
+![tablă](Laborator7/images/table.png)  
 Completați funcția `drawTable` pentru a genera un tabel (element `html` de tip `table`) cu o dimensiune dată (număr de rânduri și număr de coloane) și adăugați-l în `divul` cu id-ul `container` folosind JavaScript și DOM.  
 
 *Hint: Pentru a ușura parcurgerea arborelui DOM în continuare, adăugați fiecărei celule `td` din tabel câte o clasă pentru rândul și coloana pe care se află. De exemplu, primei celule din tabel îi puteți adăuga clasele `"r0"` și `"c0"`.*
@@ -17,7 +17,7 @@ Completați funcția `drawTable` pentru a genera un tabel (element `html` de tip
 
 3. Folosiți funcțiile de mai sus pentru a completa definiția funcției `rainbow` care desenează un curcubeu (pe orizontală sau verticală, conform argumentului `target`) precum în imaginile de mai jos. 
 
-![](resources/images/rbw.png)  
+![](Laborator7/images/rbw.png)  
 
 4. Scrieți o funcție `getNthChild` care returnează al `n`-lea (element) copil al unui element dat.
 
@@ -42,8 +42,8 @@ Completați funcția `drawTable` pentru a genera un tabel (element `html` de tip
 
 11. Definiți funcția `shiftRow` ce aplică o permutare circulară la dreapta cu un număr de poziții dat elementelor de pe o linie din tabla de desenat.  
 *Hint: de exemplu, conținutul liniei de mai jos este deplasat cu 4 poziții.*  
-![](resources/images/perm.png)  
-![](resources/images/perm-1.png)  
+![](Laborator7/images/perm.png)  
+![](Laborator7/images/perm-1.png)  
  
 12. Definiți funcția `jumble` pentru a aplica o permutare circulară
    cu un număr aleator de poziții fiecărei linii din tabla de desenat.
